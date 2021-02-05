@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #838A2D;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form .txt, .form .send {
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #838A2D;
+}
+
+.form .txt {
+  width: 70%;
+  border-radius: 30px 0 0 30px;
+  border-right: 0;
+}
+
+.form .send {
+  width: 30%;
+  border-radius: 0 30px 30px 0px;
+  border-left: 0;
+  background: #838A2D;
+  color: white;
+}
+
+.form .send:hover {
+  background: #565a1d;
+  border: 2px solid #565a1d;
+  border-left: 0;
+}
+
+.list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.list .list-item {
+  border-radius: 30px;
+  background: #bac541;
+  padding: 7px 20px;
+  color: #20220a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.list .list-item a {
+  color: white;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.list .list-item a:hover {
+  color: #20220a;
+}
+
+@media (max-width: 768px) {
+  .list, .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .list, .form {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=all.css.map */
